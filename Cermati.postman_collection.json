@@ -1,0 +1,194 @@
+{
+	"info": {
+		"_postman_id": "9d4c5748-4c83-4f56-84b2-1bcdba091eb5",
+		"name": "Cermati",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "endpointName",
+			"item": [
+				{
+					"name": "tc-validate_get_country_by_name",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseurl}}/name/indonesia",
+							"host": [
+								"{{baseurl}}"
+							],
+							"path": [
+								"name",
+								"indonesia"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tc-validate_get_country_by_code",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseurl}}/name/indonesia",
+							"host": [
+								"{{baseurl}}"
+							],
+							"path": [
+								"name",
+								"indonesia"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tc-validate_get_country_by_wrong_name",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseurl}}/name/indonesia",
+							"host": [
+								"{{baseurl}}"
+							],
+							"path": [
+								"name",
+								"indonesia"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tc-validate_get_country_by_wrong_code",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseurl}}/name/IN2",
+							"host": [
+								"{{baseurl}}"
+							],
+							"path": [
+								"name",
+								"IN2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tc-validate_get_country_by_null_value",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseurl}}/name/indonesia",
+							"host": [
+								"{{baseurl}}"
+							],
+							"path": [
+								"name",
+								"indonesia"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "endpointCurrency",
+			"item": [
+				{
+					"name": "tc-validate_get_country_by_currency_name",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "tc-validate_get_country_by_currency_code",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "tc-validate_get_country_by_currency_wrong_name",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "tc-validate_get_country_by_currency_wrong_code",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "tc-validate_get_country_by_currency_wby_null_value",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "endpointLanguage",
+			"item": [
+				{
+					"name": "tc-validate_get_country_by_language_name",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "tc-validate_get_country_by_language_code",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "tc-validate_get_country_by_language_wrong_name",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "tc-validate_get_country_by_language_wrong_code",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "tc-validate_get_country_by_language_by_null_value",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
